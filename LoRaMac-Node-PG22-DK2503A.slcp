@@ -1,0 +1,35 @@
+# Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
+include:
+- path: ''
+  file_list:
+  - {path: app.h}
+component:
+- {id: app_log}
+- {id: cli_core}
+- {id: sl_system}
+- instance: [vcom]
+  id: iostream_usart
+- {id: simple_timer}
+- {id: brd2503a}
+- {id: EFM32PG22C200F512IM40}
+- {id: iostream_usart_core}
+- {id: pg22_dk2503a}
+- {id: device_init}
+- {id: gpiointerrupt}
+- {id: app_assert}
+- {id: sensor_rht}
+package: platform
+define:
+- {name: DEBUG_EFM}
+description: |
+  This example project shows an empty configuration that can be used as a starting point to add components and functionality.
+label: LoRaMac-Node-PG22-Thunderboard
+source:
+- {path: app.c}
+- {path: main.c}
+project_name: LoRaMac-Node-PG22-Thunderboard
+category: Example|Platform
+toolchain_settings: []
+ui_hints: {}
+quality: production
+

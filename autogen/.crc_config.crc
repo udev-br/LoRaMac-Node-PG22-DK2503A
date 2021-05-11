@@ -1,0 +1,17 @@
+#CRC Codes for initially generated config files -- do not modify!
+#Tue May 04 14:06:02 BRT 2021
+sl_hfxo_manager_config.h=415033866
+sl_device_init_lfxo_config.h=-778811863
+sl_sleeptimer_config.h=-1879962229
+sl_device_init_dcdc_config.h=-870566101
+app_assert_config.h=1403752307
+sl_device_init_emu_config.h=622680131
+sl_mx25_flash_shutdown_usart_config.h=-59667380
+sl_i2cspm_inst0_config.h=1613543508
+sl_device_init_hfxo_config.h=1133380573
+app_log_config.h=-739012570
+sl_board_control_config.h=-1800389462
+sl_power_manager_config.h=-1475773310
+sl_memory_config.h=687128566
+sl_iostream_usart_vcom_config.h=133599646
+sl_cli_config.h=-1513730603
