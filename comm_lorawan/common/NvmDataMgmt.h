@@ -37,6 +37,8 @@
 #ifndef __NVMDATAMGMT_H__
 #define __NVMDATAMGMT_H__
 
+void NvmDataMgmtInit( void );
+
 /*!
  * \brief NVM Management event.
  *
