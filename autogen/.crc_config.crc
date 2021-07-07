@@ -1,5 +1,6 @@
 #CRC Codes for initially generated config files -- do not modify!
-#Tue May 04 14:06:02 BRT 2021
+#Tue Jun 15 16:50:24 BRT 2021
+nvm3_default_config.h=44458093
 sl_hfxo_manager_config.h=415033866
 sl_device_init_lfxo_config.h=-778811863
 sl_sleeptimer_config.h=-1879962229
