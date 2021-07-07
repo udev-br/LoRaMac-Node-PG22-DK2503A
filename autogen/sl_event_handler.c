@@ -14,6 +14,7 @@
 #include "sl_i2cspm_instances.h"
 #include "sl_iostream_init_instances.h"
 #include "sl_iostream_init_usart_instances.h"
+#include "nvm3_default.h"
 #include "sl_simple_timer.h"
 #include "sl_cli_instances.h"
 #include "sl_power_manager.h"
@@ -35,6 +36,7 @@ void sl_platform_init(void)
   sl_device_init_clocks();
   sl_device_init_emu();
   sl_board_init();
+  nvm3_initDefault();
   sl_power_manager_init();
 }
 

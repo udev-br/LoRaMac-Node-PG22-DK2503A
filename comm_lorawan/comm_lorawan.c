@@ -15,6 +15,8 @@
 #include "board-config.h"
 #include "board.h"
 #include "sx126x-board.h"
+#include "NvmDataMgmt.h"
+
 
 #ifndef ACTIVE_REGION
 
@@ -135,6 +137,7 @@ void comm_lorawan_init ( void ) {
 
   SpiInit( &SX126x.Spi, SPI_1, RADIO_MOSI, RADIO_MISO, RADIO_SCLK, RADIO_NSS );
   SX126xIoInit( );
+  NvmDataMgmtInit();
 
   if ( LmHandlerInit( &LmHandlerCallbacks, &LmHandlerParams ) != LORAMAC_HANDLER_SUCCESS )
   {

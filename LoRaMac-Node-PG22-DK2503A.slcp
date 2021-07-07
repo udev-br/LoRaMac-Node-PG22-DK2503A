@@ -7,6 +7,7 @@ component:
 - {id: app_log}
 - {id: cli_core}
 - {id: sl_system}
+- {id: nvm3_lib}
 - instance: [vcom]
   id: iostream_usart
 - {id: simple_timer}
@@ -18,6 +19,7 @@ component:
 - {id: gpiointerrupt}
 - {id: app_assert}
 - {id: sensor_rht}
+- {id: nvm3_default}
 package: platform
 define:
 - {name: DEBUG_EFM}
